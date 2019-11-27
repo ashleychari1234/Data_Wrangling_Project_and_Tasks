@@ -1,5 +1,3 @@
-# Data Wrangling Project and Tasks
-
 # Data Wrangling Projects
 
 ## Overview
@@ -10,11 +8,13 @@ I have been given permission to make my work public.
 
 ## Description of subdirectories
 
-Write description for each subdirectory (i.e. project) here...
+Project 1 is the SQL code that was used to complete HW 1 for QBS 181, which includes 
+manipulating tables within SQL
 
-Reminder: Please do NOT include data, results or response to the assignment questions in this repository. Include R and SQL code only.
+Project 2 is R code that was used to complete HW 2 for QBS 181, which include manipulating tables and doing visualizations using ggplot2
 
-## (Optional: Additional sections)
+Midterm Project is R code that was used to complete the Midterm Exam for QBS 181, and includes a variety of data wrangling methods, such as one hot encoding and mean imputation
 
-You may include any additional information you would like others to know. This won't be graded.
+Final Project is R and SQL code that was used to complete the Final Exam for QBS 181, which includes manipulating tables, one hot encoding, and other data wrangling methods.
+
 

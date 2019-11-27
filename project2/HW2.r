@@ -7,6 +7,10 @@ library("RODBC")
 library(sqldf)
 
 # Question 1: Create a new column “Enrollment group” in the table Phonecall
+
+# Setup connection to the database using ODBC strings (info removed for security purposes)
+myconn <- odbcConnect("------", "------", "--------")
+
 # Load in table
 Phonecall_table <- sqlQuery(myconn, "select * from Phonecall")
 

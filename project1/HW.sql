@@ -1,5 +1,8 @@
 /* Print random 10 rows from the table */
-select top 10 * from [afrancisco].demographics order by newid();
+select top 10
+    *
+from [afrancisco].demographics
+order by newid();
 
 /* Rename all the columns in the table */
 exec sp_rename 'afrancisco.demographics.tri_age', 'Age', 'COLUMN';
@@ -29,9 +32,11 @@ update [afrancisco].demographics set Sex='other' where gender='167410000';
 update [afrancisco].demographics set Sex='Unknown' where gender='NULL';
 
 /* Create a new column “Age group” and create age groups with an interval of 25 yrs. for example 0-25 years as ‘0-25’, 26-50 as “26-50” */
-select * from [afrancisco].demographics;
+select *
+from [afrancisco].demographics;
 /* Find the max age to create intervals */
-select max(Age) as max_age from [afrancisco].demographics;
+select max(Age) as max_age
+from [afrancisco].demographics;
 /* Create a column Age_group */
 alter table [afrancisco].demographics add Age_group nvarchar(50);
 /* Create interval for 0-25 */
